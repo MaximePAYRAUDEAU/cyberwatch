@@ -10,7 +10,7 @@ var express = require('express'),
 
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://cyberwatch:Pl6jAXDim6REji89J0zz0RlFJ2J4DwRGw8Q61NvIC2hszNTQVHg0Z3DyMWFP71ogYhZZLu38VFRAaMXRk43Afg==@cyberwatch.documents.azure.com:10255/?ssl=true&replicaSet=globaldb');
+mongoose.connect('mongodb://');
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
