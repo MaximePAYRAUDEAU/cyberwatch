@@ -16,7 +16,6 @@ mongoose.connect('mongodb://cyberwatch:Pl6jAXDim6REji89J0zz0RlFJ2J4DwRGw8Q61NvIC
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-
 var routes = require('./api/routes/todoListRoutes'); //importing route
 routes(app); //register the route
 
